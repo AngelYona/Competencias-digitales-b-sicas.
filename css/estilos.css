@@ -110,6 +110,6 @@ h1,h2,h3,p{margin-top:0}h1{font-family:Anton,Impact,sans-serif;font-weight:400;t
 /* Ilustraciones vectoriales de los cinco módulos */
 .topic-card{position:relative;overflow:hidden;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
 .topic-card:hover,.topic-card:focus-visible{transform:translateY(-4px);box-shadow:0 18px 38px rgba(25,15,31,.12);border-color:#C7CCF2}
-.topic-illustration{display:block;width:100%;height:auto;aspect-ratio:320/190;object-fit:cover;border-radius:15px;margin:.25rem 0 1.05rem}
+.topic-illustration{display:block;width:100%;height:auto;min-height:150px;aspect-ratio:320/190;object-fit:contain;border-radius:15px;margin:.25rem 0 1.05rem;flex:0 0 auto}
 .topic-number{z-index:1}
 @media (prefers-reduced-motion:reduce){.topic-card{transition:none}.topic-card:hover,.topic-card:focus-visible{transform:none}}
