@@ -1,0 +1,38 @@
+WEB DE APRENDIZAJE: COMPETENCIAS DIGITALES BÁSICAS
+Preparada para publicar en GitHub Pages
+
+CONTENIDO
+- index.html: página principal.
+- css/estilos.css: diseño y estilos.
+- js/app.js: contenidos, navegación y ejercicios.
+- img/logo.jpg: logotipo de la web.
+
+PUBLICAR EN GITHUB PAGES
+1. Descomprime este ZIP.
+2. En GitHub, crea un repositorio llamado competencias-digitales-basicas.
+3. Para publicar con GitHub Pages gratuito, selecciona el repositorio como público.
+4. Sube el contenido de la carpeta competencias_digitales_web (no el ZIP).
+5. Comprueba que index.html queda en la raíz del repositorio, junto a las carpetas css, js e img.
+6. Abre Settings > Pages.
+7. En Build and deployment, selecciona Deploy from a branch, rama main y carpeta /(root), y guarda.
+8. Espera a que GitHub publique el sitio y abre la URL que aparece en Pages.
+
+PRUEBA ANTES DE COMPARTIR
+- Abre el enlace en una ventana privada.
+- Comprueba el logotipo, el diseño, los cinco módulos y los cuestionarios.
+- Prueba el enlace desde un móvil.
+- Si cambias archivos, vuelve a subirlos al repositorio.
+
+PRIVACIDAD
+- Esta web está diseñada como material de repaso sin cuentas de alumnos ni envío de resultados al profesor.
+- Las respuestas y puntuaciones de los cuestionarios se calculan para mostrarse en la página.
+- No añadas nombres, correos, calificaciones ni otros datos personales del alumnado.
+- GitHub Pages publica el contenido de forma pública y GitHub puede registrar datos técnicos de acceso.
+- Las fuentes de Google Fonts necesitan conexión para cargarse; si no están disponibles, se usarán fuentes alternativas.
+
+ESTRUCTURA
+competencias_digitales_web/
+  index.html
+  css/estilos.css
+  js/app.js
+  img/logo.jpg
