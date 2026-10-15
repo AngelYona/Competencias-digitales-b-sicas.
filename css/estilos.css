@@ -76,3 +76,33 @@ h1,h2,h3,p{margin-top:0}h1{font-family:Anton,Impact,sans-serif;font-weight:400;t
 .home-link:hover,.home-link:focus-visible{background:#EEF1FF;outline:none}
 .site-header{justify-content:flex-start}
 .brand-logo{object-fit:contain;display:block}
+
+
+/* Reto de aplicación y solución orientativa */
+.task-panel {
+  border: 1px solid #d9def8;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  background: #f8f8ff;
+  margin: 1rem 0;
+}
+.task-panel h4 { margin-top: 0; }
+.solution-details {
+  margin-top: .85rem;
+  border-top: 1px solid #d9def8;
+  padding-top: .8rem;
+}
+.solution-details summary {
+  color: #1C1B9C;
+  font-weight: 700;
+  cursor: pointer;
+  padding: .35rem 0;
+}
+.solution-content {
+  background: #eef1ff;
+  border-left: 4px solid #2E7D63;
+  border-radius: 8px;
+  padding: .75rem 1rem;
+  margin-top: .65rem;
+}
+.solution-content p { margin: 0; }
